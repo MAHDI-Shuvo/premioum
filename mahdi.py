@@ -4,10 +4,10 @@ import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, co
 logo = '\x1b\33[93m███╗   ███╗ █████╗██╗  ██╗██████╗ ██╗     \n\033[91m███╗ ████║██╔══██╗██║  ██║██╔══██╗██║    \n\033[1;32m██╔████╔██║███████║███████║██║  ██║██║   \n\33[97m██║╚██╔╝██║██╔══██║██╔══██║██║  ██║██║    \n\033[96m██║ ╚═╝ ██║██║  ██║██║  ██║██████╔╝██║    \n\033[0;35m╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚═╝\033[0m\n \033[0m================================================================\n\33[93mAUTHOR :\033[91m[MAHDI HASAN] SHUVO\n\033[0;33mGITHUB : \033[1;97mhttps://github.com/MAHDI-Shuvo\nLIVE in Sylhet (Read in class 10)\n\033[42mNo NEED GF \033[0;31mIF YOU LOVE ME I LOVE YOU IF U HAT ME I FUCK YOU\n ================================================================ '
 logo1 = """
 \033[0;33m55.88b  d88.  .d8b.  db   db d8888b.d888888b\n88'YbdP`88 d8' `8b 88   88 88  `8D   `88'\n88  88  88 88ooo88 88ooo88 88   88    88\n88  88  88 88~~~88 88~~~88 88   88    88\n88  88  88 88   88 88   88 88  .8D   .88.\nYP  YP  YP YP   YP YP   YP Y8888D' Y888888P                                             
-\033[0m================================================================
-CREATED BY MAHDI HASAN(SHUVO)
-FB ; https://web.facebook.com/mahdihasan.80
-FB Grup ;https://web.facebook.com/group/
+\033[0m================================================================\033[1;37m
+CREATED BY MAHDI HASAN(SHUVO)\033[1;34m
+FB ; https://web.facebook.com/mahdihasan.80\033[1;33m
+FB Grup ;https://web.facebook.com/group/\033[0m
 """
 os.system('clear')
 
